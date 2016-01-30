@@ -1,0 +1,24 @@
+{
+	"name": "locomotivemtl/instagram",
+	"type": "library",
+	"description": "PHP class for accessing Instagram's API.",
+	"keywords": [ "instagram", "api" ],
+	"homepage": "https://github.com/locomotivemtl/instagram",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Locomotive",
+			"email": "info@locomotive.ca",
+			"homepage": "https://locomotive.ca"
+		}
+	],
+	"require": {
+		"php": ">=5.5.0",
+		"ext-curl": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Locomotive\\Instagram\\": "src"
+		}
+	}
+}
